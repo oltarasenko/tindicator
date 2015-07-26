@@ -71,7 +71,8 @@
           <object class="GtkLabel" id="label1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">API Key</property>
+            <property name="label" translatable="yes">Enter your API Token  &lt;a href="https://toggl.com/app/profile"&gt;how to find?&lt;/a&gt;</property>
+            <property name="use_markup">True</property>
           </object>
           <packing>
             <property name="expand">False</property>

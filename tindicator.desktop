@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0.1
+Type=Application
+Name=tindicator
+Comment=Toggl indicator client
+# myscript should wait for user input at the end, else the terminal
+# window will disappear immediately.
+Exec=tindicator
+Icon=/usr/share/toggle_indicator/toggl/toggl.png
+Categories=Utility;
+StartupNotify=true
+StartupWMClass=tindicator

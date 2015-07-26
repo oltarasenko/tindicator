@@ -1,0 +1,3 @@
+include tindicator.desktop
+include toggl/toggl_ui.glade
+include toggl/toggl.png
