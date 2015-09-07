@@ -52,6 +52,7 @@ class TogglIndicator(object):
         window = builder.get_object("new_task_dialog")
         builder.connect_signals(UIHandler(self, window))
         window.show_all()
+        window.set_keep_above(True)
 
     def stop_current_task(self, widget):
         self.connection.stop_current_task(self.current_task.get("id"))

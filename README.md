@@ -12,3 +12,9 @@ You can create a .deb file from the package using [stdeb](https://pypi.python.or
 python setup.py --command-packages=stdeb.command bdist_deb
 
 ```
+
+Deb can be installed with
+
+```
+sudo dpkg -i packagename.deb
+```
